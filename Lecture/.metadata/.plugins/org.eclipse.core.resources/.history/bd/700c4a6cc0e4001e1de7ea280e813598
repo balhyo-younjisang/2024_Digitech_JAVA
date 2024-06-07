@@ -1,0 +1,11 @@
+package OOP2;
+
+public class Bus {
+	int busNo; // 버스 번호
+	int passengerCount; // 승객 수
+	int money; // 요금
+	
+	public Bus(int busNo) {
+		this.busNo = busNo;
+	}
+}

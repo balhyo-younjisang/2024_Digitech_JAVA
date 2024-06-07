@@ -1,0 +1,9 @@
+package OOP2;
+
+public class Transport {
+	public static void main(String[] args) {
+		// 학생이 버스 타도록 프로그래밍 하기
+		// 학생 객체를 만들기
+		// 버스 객체를 만들기
+	}
+}

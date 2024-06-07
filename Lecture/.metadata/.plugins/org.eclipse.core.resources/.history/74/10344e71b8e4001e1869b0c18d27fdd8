@@ -1,0 +1,9 @@
+package Constructor;
+
+public class Student {
+	private int sno;
+	private String name;
+	private String tel;
+	private String address;
+	
+}

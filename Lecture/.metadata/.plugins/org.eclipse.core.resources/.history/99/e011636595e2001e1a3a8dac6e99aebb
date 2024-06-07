@@ -1,0 +1,11 @@
+package OOP;
+
+// 객체지향의 상속
+public class Dog extends Animal {
+
+	@Override
+	public void act() {
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package OOP2;
+
+public class Bus {
+	int busNo; // 버스 번호
+	int passengerCount; // 승객 수
+	int money; // 요금
+	
+	// 모든 버스는 버스 번호가 있어야 하므로 기본 생성자를 만들지 않기로 함
+	public Bus(int busNo) {
+		this.busNo = busNo;
+	}
+	
+	// 버스 타기
+	public void takeBus(int money) {
+		this.money += money;
+		this.passengerCount++;
+	}
+}

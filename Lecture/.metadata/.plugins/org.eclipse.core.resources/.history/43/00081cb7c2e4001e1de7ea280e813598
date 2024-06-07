@@ -1,0 +1,6 @@
+package OOP2;
+
+public class Subway {
+	int lineNumber;
+	int passengerCount;
+}

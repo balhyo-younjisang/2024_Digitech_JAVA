@@ -1,0 +1,16 @@
+package Constructor;
+
+public class StudentMain {
+	public static void main(String[] args) {
+		Student kim = new Student();
+		
+		kim.setSno(20401);
+		kim.setName("김영호");
+		kim.setTel("1234567");
+		kim.setAddress("서울역");
+		
+		Student yoon = new Student(20406, "윤지상", "12341234", "서울시 성북구 돈암동 정릉로 52길 42");
+		
+		// 학생 배열
+	}
+}

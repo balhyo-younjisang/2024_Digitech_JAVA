@@ -1,0 +1,17 @@
+package OOP;
+
+// 객체지향의 상속
+public class Dog extends Animal {
+
+	@Override
+	public void act() {
+		System.out.println("네발로 뛰어다닌다");
+	}
+	
+	@Override
+	public void sound() {
+		// 추상 클래스의 일반 메소드를 선언된 메소드를 실행시킬 때는 반드시 super() 메소드를 사용해야 한다.
+//		super.sound();
+		System.out.println("멍멍");
+	}
+}

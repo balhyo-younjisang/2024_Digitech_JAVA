@@ -1,0 +1,10 @@
+package Constructor;
+
+public class StudentMain {
+	public static void main(String[] args) {
+		Student kim = new Student();
+		
+		kim.setSno(20401);
+		kim.setName("김영호");
+	}
+}

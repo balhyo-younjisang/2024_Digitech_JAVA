@@ -1,0 +1,15 @@
+package OOP;
+
+public class AnimalMain {
+	public static void main(String[] args) {
+		// 모든 객체는 생성해야 사용할 수 있다.
+		Dog	dog = new Dog();
+		Dog hoon = new Dog("정재훈");
+		
+		dog.act();
+		dog.sound();
+		
+		hoon.act();
+		hoon.sound();
+	}
+}

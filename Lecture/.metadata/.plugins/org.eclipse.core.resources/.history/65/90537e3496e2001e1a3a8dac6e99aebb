@@ -1,0 +1,16 @@
+package OOP;
+
+// 객체지향의 상속
+public class Dog extends Animal {
+
+	@Override
+	public void act() {
+		System.out.println("네발로 뛰어다닌다");
+	}
+	
+	@Override
+	public void sound() {
+		super.sound();
+		System.out.println("멍멍");
+	}
+}
